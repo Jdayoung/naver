@@ -1,0 +1,42 @@
+/* 공통클래스 누구나 다 쓸수있는 클래스*/
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+
+
+
+/* 
+    공용화장실
+ */
+
+header .logo_area .logo, .sp_bg, .service_area a.link_start::after, header .gnb_area .mail::before,
+.sc_news .group_issue .issue_wrap .media::after, .movie_title strong::after, .sc_shop .group_title .trend .sp_bg::after, .gnb_area .arrow,
+.weather_swiper .air_icon, .sc_news .news_icon, .sc_news .arrow,
+.sc_shop .group_goods .btn .sp_bg, .sc_shop .shop_page .btn .sp_bg,
+.sc_login .login_link a.link_id .sp_bg, .sc_login .login_link a.link_join .sp_bg, .sc_shop .group_title .trend .arrow,
+.group_title .right_title .sp_bg, .sc_login .login_btn .sp_bg
+{
+    background-image: url(../images/sp_bg.png);
+    background-size: 457px;
+    background-repeat: no-repeat;
+}
+.sc_shop .group_title .trend .sp_bg {
+    background-image: url(../images/sp_bg02.png);
+    background-size: 107px 78px;
+    background-repeat: no-repeat;
+}
+
+
+.main_weather .w_bg {
+    background-image: url(../images/w_bg.png);
+    background-size: 457px;
+    background-repeat: no-repeat;
+
+}
